@@ -1,0 +1,86 @@
+body {
+    background-position: center center;
+    background-image: url(../image/03.jpg); /* 设置背景图片为your-image.jpg */
+    background-size: cover; /* 让背景图片覆盖整个网页 */
+    background-repeat: no-repeat; /* 防止背景图片重复显示 */
+    /* 设置最小高度为视口高度，确保背景图片完整显示 */
+}
+h1{
+    text-align: center;
+    background-color:rgba(203, 18, 18, 0.662);
+    padding-left: 0%;
+    margin: 30px;
+    border-radius: 30px; /* 设置边缘为10像素的圆弧 */
+
+}
+.h2 {
+    text-align: left;
+    background-color: rgb(172, 6, 6);
+    padding: 0%;
+}
+.center_mian{
+    background-color:rgba(203, 18, 18, 0.662);
+    color:white;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 63%;
+    height: 325px;
+    border-radius: 10px; /* 设置边缘为10像素的圆弧 */
+    
+}
+.left_part{
+    background-color: rgba(203, 18, 18, 0.662);
+    color: aliceblue;
+    width:250px;
+    height: 50%;
+    margin-top: 22px;
+    text-align: left;
+    float: left;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.right_part{
+    background-color: rgba(48, 1, 1, 0.961);
+    color: aliceblue;
+    width:250px;
+    height: 50%;
+    margin-top: 22px;
+    text-align: left;
+    float: right;
+    margin-top: 22px;
+    border-radius: 10px; 
+}
+
+.image {
+    width: 143px; /* 设置图片宽度为200像素 */
+    height: 143px; /* 设置图片高度为150像素 */
+    object-fit: cover; 
+    float:inline-start;/* 设置图片填充整个容器 */
+    border-radius: 10px; /* 设置边缘为10像素的圆弧 */
+}
+p {
+text-indent: 30px; /* 设置段落的首行缩进为20像素 */
+}
+.footer{
+    min-height: 100px;
+    margin:50px;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #cd0707;
+    color: #111;
+
+}
+.footer a{
+    display: block;
+  color: rgb(10, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.footer a:hover{
+    background-color: #111; /* 鼠标悬停时的背景颜色 */
+  color: #cd0707;
+}

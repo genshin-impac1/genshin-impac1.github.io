@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+      /*宽度和高度会包括内边距和边框*/
+    }
+
+    div.search {
+      padding: 10px 0;
+    }
+
+    form {
+      position: relative;
+      width: 300px;
+      margin: 0 auto;
+      /*设置宽度后，居中*/
+    }
+
+    input,
+    button {
+      border: none;
+      /*无边框样式；元素的总宽度和高度包括边框的宽度 */
+      outline: none;
+      /*无轮廓样式；轮廓是在元素周围绘制的一条线，在边框之外并且可能与其他内容重叠，以凸显元素，元素的总宽度和高度不受轮廓线宽度的影响。*/
+    }
+
+    .search input {
+      width: 100%;
+      height: 42px;
+      padding-left: 13px;
+      border: 2px solid #c5464a;
+      border-radius: 19px;
+      /*border-radius 属性用于向元素添加圆角边框：*/
+      background: transparent;
+      /*背景透明*/
+    }
+
+    .search button {
+      height: 42px;
+      width: 42px;
+      cursor: pointer;
+      /*cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+      position: absolute;
+      background: #c5464a;
+      border-radius: 0 19px 19px 0;
+      width: 60px;
+      right: 0;
+    }
+
+    .search button:hover {
+      background-color: #c7585c;
+      /*点击搜索按钮时的背景颜色*/
+    }
+
+    /* 在<button>元素后面插入内容，并设置所插入内容的样式： */
+    .search button:before {
+      content: "搜索";
+      /*插入的内容*/
+      font-size: 13px;
+      /*插入内容的字体大小*/
+      color: #F9F0DA;
+      /*插入内容的字体颜色*/
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>刀剑神域</title>
+  <link rel="stylesheet" href="../css/swordart.css">
+</head>
+
+
+<header>
+  <div class="logo">
+    <a href="../index.html"></a>
+  </div>
+  <h1 style="color: black;font-size: 64px;">刀剑神域-序列之争</h1>
+</header>
+
+
+
+<ul>
+  <li><a href="#section1">电影基本信息</a></li>
+  <li><a href="#section2">剧情介绍</a></li>
+  <li><a href="#section3">角色介绍</a></li>
+</ul>
+
+
+<body style="width: 100%;">
+  <div class="search">
+    <form action="" method="post">
+      <input placeholder="请输入..." name="keyword" type="text">
+      <button type="submit"></button>
+    </form>
+  </div>
+  <a href="./saoinform.html">
+    <img src="../image/./点我了解更多.png" style="position: absolute;left: 200px;top: 250px;">
+  </a>
+  <a href="./saovideo.html">
+    <img src="../image/111.png" style="position: absolute;right: 200px;top: 250px;">
+  </a>
+  <section id="section1">
+    <h1>基本信息</h1>
+    <p>《刀剑神域 -序列之争-》是由伊藤智彦执导，并与《刀剑神域》轻小说原作者川原砾共同谱写了剧本，A-1
+      Pictures制作的电视动画《刀剑神域》系列动画电影。剧情为原创，讲述了原作小说第7卷圣母圣咏篇与第9卷Alicization篇之间，即电视动画第二季《刀剑神域Ⅱ》之后的故事。
+      影片于2017年2月18日在日本上映，4DX/MX4D版于同年3月10日在日本上映。中国台湾由木棉花代理，于同年2月24日上映；中国香港由新映影片代理，于同年3月30日上映；中国内地由中国电影股份有限公司发行，于同年9月15日上映。
+      [1]该作是首部引进中国内地的日本深夜档动画剧场版。
+    </p>
+  </section>
+  <section id="section2">
+    <h1>剧情简介</h1>
+    <p>2022年，天才编程者茅场晶彦所开发的世界最早的完全潜行专用装备设备“NERvGear”。</p>
+    <p>这个革命性的机器给VR（假想现实）世界带来了无限的可能性。那之后经过了4年。</p>
+    <p>“NERvGear”的后继品VR机为了对抗“AmuSphere”（第二代民用完全潜行机），发售了一个次世代的可穿戴设备“Augma”。</p>
+    <p>替换了完全潜行机能，是一个对AR（增强现实）功能进行了最大限度扩大的最先进机种。</p>
+    <p>由于“Augma”在觉醒状态下也可以安全和便利地使用，因此一瞬间便在玩家当中传开了。</p>
+    <p>这个杀手级内容，被叫做“Ordinal Scale序列之争（OS）”，是“Augma”专用的ARMMO RPG。</p>
+    <p>亚丝娜和伙伴们会玩的这个游戏，桐人也准备参战了。</p>
+
+  </section>
+  <section id="section3">
+    <h1>角色介绍</h1>
+    <div class="intro_role">
+      <div class="left_column">
+		  <div class="fakeimg" style="background-image: url(../image/桐人.png);"></div>
+      </div>
+      <div class="right_column">
+        <p>桐人（キリト）</p>
+        <p>本名：桐谷和人（桐ヶ谷和人）</p>
+        <p>配音：松冈祯丞（日本）、曹旭鹏（中国大陆）、宋昱璁（中国台湾）</p>
+        <p>把噩梦一般的死亡游戏《刀剑神域（SAO）》引导向了胜利的"英雄"。
+          别名"黑衣剑士"</p>
+      </div><br>
+    </div>
+
+    <div class="intro_role">
+      <div class="left_column">
+        <div class="fakeimg" style="background-image: url(../image/亚丝娜.png);"></div>
+      </div>
+      <div class="right_column">
+        <p>亚丝娜（アスナ）</p>
+        <p>本名：结城明日奈（结城明日奈）</p>
+        <p>配音：户松遥（日本）、阎萌萌（中国大陆）、丘梅君（中国台湾）</p>
+        <p>在《SAO》里拥有着“闪光”的别称，使用轻剑的少女。现实和假想世界中都是桐人的恋人。</p>
+      </div><br>
+    </div>
+
+    <div class="intro_role">
+      <div class="left_column">
+        <div class="fakeimg" style="background-image: url(../image/结衣.png);"></div>
+      </div>
+      <div class="right_column">
+			<p>结衣（ユイ）</p>
+        <p>配音：伊藤加奈惠（日本）、碧涓（中国大陆）、林美秀（中国台湾）</p>
+        <p>原来是《SAO》的心理健康咨询专门人工智能（AI）。称桐人和亚斯娜为爸爸妈妈，像孩子一样追随在他们身边。</p>
+      </div><br>
+    </div>
+  </section>
+</body>
+<footer>
+</footer>

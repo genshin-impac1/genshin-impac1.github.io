@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;  /*宽度和高度会包括内边距和边框*/
+        }
+ 
+        div.search {
+            padding: 10px 0;
+        }
+ 
+        form {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;  /*设置宽度后，居中*/
+        }
+ 
+        input,button {
+            border: none;   /*无边框样式；元素的总宽度和高度包括边框的宽度 */
+            outline: none;  /*无轮廓样式；轮廓是在元素周围绘制的一条线，在边框之外并且可能与其他内容重叠，以凸显元素，元素的总宽度和高度不受轮廓线宽度的影响。*/
+        }
+ 
+        .search input {
+            width: 100%;
+            height: 42px;
+            padding-left: 13px;
+            border: 2px solid #c5464a;
+            border-radius: 19px;   /*border-radius 属性用于向元素添加圆角边框：*/
+            background: transparent;  /*背景透明*/
+        }
+ 
+        .search button {
+            height: 42px;
+            width: 42px;
+            cursor: pointer;  /*cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+            position: absolute;
+            background: #c5464a;
+            border-radius: 0 19px 19px 0;
+            width: 60px;
+            right: 0;
+        }
+        .search button:hover {
+            background-color: #c7585c;  /*点击搜索按钮时的背景颜色*/
+        }
+ 
+        /* 在<button>元素后面插入内容，并设置所插入内容的样式： */
+        .search button:before {
+            content: "搜索";  /*插入的内容*/
+            font-size: 13px;  /*插入内容的字体大小*/
+            color: #F9F0DA;  /*插入内容的字体颜色*/
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>刀剑神域</title>
+    <link rel="stylesheet" href="../css/saoinform.css">
+</head>
+
+<header>
+    <div class="logo">
+        <a href="../index.html"></a>
+    </div>
+    <h1 style="color: black;font-size: 64px;">刀剑神域-序列之争</h1>
+</header>
+
+<ul>
+    <li><a href="#section1">电影原作</a></li>
+    <li><a href="#section2">原作背景</a></li>
+    <li><a href="#section3">原作剧情</a></li>
+</ul>
+
+<body>
+    <div class="search">
+        <form action="" method="post">
+            <input placeholder="请输入..." name="keyword" type="text">
+            <button type="submit"></button>
+        </form>
+    </div>
+ 
+</body>
+<body>
+    <a href="../page/swordart.html">
+        <img src="../image/点我回去.png"
+            style="position: absolute;left: 200px;top: 250px;"></a>
+    <section id="section1">
+        <h1>原作：《刀剑神域》</h1>
+        <p>《刀剑神域》是川原砾著作、abec负责插画、电击文库所属的轻小说。</p>
+        <p>本作原是作者于2002年11月～2008年7月在其个人网站“WordGear”上连载的网络小说（共连载了“艾恩葛朗特”篇、“妖精之舞”篇、“死枪”篇、“Alicization”篇）。在决定出版文库本后，作者停止了网络版连载。
+        </p>
+        <p>小说单行本由ASCII Media Works、KADOKAWA出版，繁体中文版由台湾角川发行，简体中文版由天闻角川发行，并授权叭嗒（已下架）、SF轻小说、咪咕阅读在其平台上发布电子版。</p>
+        <p>截至2020年4月，小说系列的全球销量已突破2600万册。</p>
+        <hr>
+
+    </section>
+    <section id="section2">
+        <h2>作品背景</h2>
+        <p>2001年秋，川原砾为了投稿电击文库的第9届“电击游戏小说大奖”（现改名为“电击小说大奖”），写了他的第一篇长篇小说《刀剑神域》。虽然作者在2002年春的截稿日之前完成了初稿，但却因为页数超过当时120页的上限，并且他觉得又没有毅力与能力把它删减到规定内的张数而放弃参赛。后来他在那年秋天架设了自己的个人网站，并以“九里史生”的笔名在上面连载SAO的文稿，这是小说的Web版原型。在开始创作时，存在于作者脑内的就只有所谓的“艾恩葛朗特”篇——说得更详细一点就是在第75层死亡游戏被完全攻略之前的短短几个星期的故事。但是在作者开设了网页、把小说作为网络小说来刊载并获得许多读者“想看后续”的声音后，作者在夹杂着外传的情况下持续连载了第2部的“妖精之舞”篇、第3部的“死枪”篇（文库版化后改名为“幽灵子弹”篇）以及于2005年1月开始连载的第4部的“Alicization”篇。
+        </p>
+        <p>2008年7月，作者结束了“Alicization”篇的连载。几乎在同一时期，作者也在小说投稿网站连载名为《超绝加速Burst
+            Linker》的小说。在把它投稿到电击文库的第15届“电击小说大奖”并得到大奖后，作者将其改名为《加速世界》并正式出道成为商业作家。当作者把这个通知刊载在自己的网页上后，看见通知的作者的责任编辑三木一马便传了“想看看《刀剑神域》”的电子邮件给他，并在花了1个星期读了《刀剑神域》系列的原稿后，提议一同将《刀剑神域》集结成书并出版。当时，三木一马希望以刊行到“Alicization”篇的结局为目标。
+            一直以来，作者都是以“网络游戏、假想世界究竟是什么”这个题目来进行创作，而他认为《刀剑神域》是他的原点。 关于小说中“女性角色增加之后，就一定会和男主角有所牵扯”的设定，有4成左右是因为作者喜欢那种情节。</p>
+    </section>
+    <section id="section3">
+        <h2>故事内容</h2>
+        <p>“这虽然是游戏，但可不是闹着玩的。”</p>
+        <p style="font-weight: bold;">——“SAO 刀剑神域”设计者·茅场晶彦——</p>
+        <p>2022年，人类的科技力终于得以将完全的网络虚拟空间实际制造出来。</p>
+        <p>大厂牌电子机械制造商“ARGUS”开发出了名为“NERvGear”的新世代民用终端，使得完全网络虚拟空间潜行能够被利用到了一般的网游之中，而《SAO》——刀剑神域便是首个利用该先进技术的大型VRMMO。</p>
+        <p>桐谷和人，一名年轻的网游玩家，便是使用NERvGear玩《SAO》的先行者玩家之一。他很幸运——抑或说不幸地获得了参与封闭测试的资格，并在游戏正式上线营运之日就迫不及待地戴上头盔造型的“NERvGear”，以“完全潜行”的状态和其他9500名玩家一起，开始享受起了正式版的SAO世界。
+        </p>
+        <p>但很快，新鲜感带来的愉悦就变成了未知的不安。SAO正式上线4小时后，正和好友组队的和人发现封测时确实存在的“退出”指令竟然从指令控制面板上消失了。虽然和人以为这只是暂时的系统BUG而未加在意，但很快，他就和其他全部玩家一道被传送到了游戏的开始之地——起始广场。
+        </p>
+        <p>而在广场上等待着他们的，是自称SAO游戏设计者的科学天才——“茅场晶彦”的死亡游戏说明：</p>
+        <p>不能退出是游戏的正常现象，只有打倒位于“艾恩葛朗特”顶楼100层的魔王——即达成“完全攻略”——才是离开这个世界唯一的方法。</p>
+        <p>并且，在游戏内Game Over或是尝试脱下NERvGear，现实中的玩家也会立刻被NERvGear发出的高出力微波破坏脑部而死亡。</p>
+        <p>突如其来的恐惧，导致最初的一个月内死亡人数就突破了2000，然而渐渐地，玩家们开始习惯了这个“真实的虚拟世界”，两年之后，尚有6000名玩家存活，最前线已推进到第74层……</p>
+        <p>而桐谷和人，则化身成名为“桐人”的黑衣剑士，开始谱写他作为一名独行玩家的冒险篇章。</p>
+    </section>
+
+</body>

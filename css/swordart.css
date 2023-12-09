@@ -1,0 +1,202 @@
+
+.header{
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.logo{
+  background-image: url(../image/logo.png);
+  float: left;
+  height: 97px;
+  width: 406px;
+}
+
+.logo a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  line-height: 100em;
+}
+
+/* 设置上导航栏的样式 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* 设置 topnav 链接的样式 */
+.topnav a {
+  box-sizing: border-box;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 改变鼠标悬停时的颜色 */
+.topnav a:hover {/*:hover伪类*/
+  background-color: #ddd;
+  color: black;
+}
+
+body{
+  background-image: url(../image/海报.png);
+  background-size: cover; 
+  background-repeat: repeat-y;
+}
+
+body h1{
+  font-size: 70px;
+  text-align: center;
+  text-shadow: black;
+  height: 100px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+body p{
+  line-height: 24px;
+  text-indent: 2em;
+  display: block;
+  font-size: large;
+  margin-left: 20em;
+  margin-right: 10em;
+}
+
+.intro_role .right_column p{
+  margin-left: 5em; 
+  color: black;
+  font-size: 20px;
+}
+
+.intro_role .left_column{
+  margin-top: 6px;
+  float:left;
+  width:40%;
+}
+
+.intro_role .right_column{
+  margin-top: 6px;
+  border-width: 2px;
+  border-color :white;
+  border-style: solid;
+  float:left;
+  width: 60%;
+  height: 439px;
+}
+
+.fakeimg {
+  border-width: 2px;
+  border-color :white;
+  border-style: solid;
+  width: 387px;
+  height: 439px;
+  padding: 0px;
+  margin-left: 20em;
+}
+
+ul {
+  list-style-type: none; /* 移除列表项的默认样式 */
+  margin-bottom: 10px;
+  padding: 0;
+  overflow: hidden; /* 创建一个包含浮动元素的块级格式上下文 */
+  background-color: aqua; /* 设置导航栏的背景颜色 */
+  display: flex;
+}
+
+li {
+    flex: 1;
+  float: left; /* 将列表项横向排列 */
+}
+
+li a {
+  display: block;
+  color: rgb(10, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+video{
+  height: 80%;
+  margin-left: 10px;
+}
+
+div.search {
+  padding: 10px 0;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  /*设置宽度后，居中*/
+}
+
+input,
+button {
+  border: none;
+  /*无边框样式；元素的总宽度和高度包括边框的宽度 */
+  outline: none;
+  /*无轮廓样式；轮廓是在元素周围绘制的一条线，在边框之外并且可能与其他内容重叠，以凸显元素，元素的总宽度和高度不受轮廓线宽度的影响。*/
+}
+
+.search input {
+  width: 100%;
+  height: 42px;
+  padding-left: 13px;
+  border: 2px solid #c5464a;
+  border-radius: 19px;
+  /*border-radius 属性用于向元素添加圆角边框：*/
+  background: transparent;
+  /*背景透明*/
+}
+
+.search button {
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  /*cursor属性定义了鼠标指针放在一个元素边界范围内时所用的光标形状*/
+  position: absolute;
+  background: #c5464a;
+  border-radius: 0 19px 19px 0;
+  width: 60px;
+  right: 0;
+}
+
+.search button:hover {
+  background-color: #c7585c;
+  /*点击搜索按钮时的背景颜色*/
+}
+
+/* 在<button>元素后面插入内容，并设置所插入内容的样式： */
+.search button:before {
+  content: "搜索";
+  /*插入的内容*/
+  font-size: 13px;
+  /*插入内容的字体大小*/
+  color: #F9F0DA;
+  /*插入内容的字体颜色*/
+}
+
+footer{
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.mycss{
+	width: 100px;
+	height: 300px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
